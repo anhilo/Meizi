@@ -19,13 +19,15 @@
 		7D75F9911CAF5EFE00D703E3 /* SYBatchRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D75F9861CAF5EFE00D703E3 /* SYBatchRequestManager.m */; };
 		7D75F9921CAF5EFE00D703E3 /* SYChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D75F9881CAF5EFE00D703E3 /* SYChainRequest.m */; };
 		7D75F9931CAF5EFE00D703E3 /* SYChainRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D75F98A1CAF5EFE00D703E3 /* SYChainRequestManager.m */; };
+		7D8910AF1E174B1900C481F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8910AE1E174B1900C481F2 /* Main.storyboard */; };
 		7D8A0AA81B58B482001EDD42 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8A0AA71B58B482001EDD42 /* SettingViewController.m */; };
 		7D93B84F1ACFD7CF00453452 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D93B84E1ACFD7CF00453452 /* main.m */; };
 		7D93B8521ACFD7CF00453452 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D93B8511ACFD7CF00453452 /* AppDelegate.m */; };
-		7D93B8581ACFD7CF00453452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D93B8561ACFD7CF00453452 /* Main.storyboard */; };
 		7D93B85A1ACFD7CF00453452 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D93B8591ACFD7CF00453452 /* Images.xcassets */; };
 		7D93B87C1ACFDD2900453452 /* Meizi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D93B87B1ACFDD2900453452 /* Meizi.m */; };
 		7DBA59001CF8297D00014AA7 /* SYNavigationDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBA58FF1CF8297D00014AA7 /* SYNavigationDropdownMenu.m */; };
+		7DEC22431E14C0640025EDB6 /* CacheSizeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC22421E14C0640025EDB6 /* CacheSizeLabel.m */; };
+		7DEC22691E14F0C20025EDB6 /* CacheSizeLabel+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC22681E14F0C20025EDB6 /* CacheSizeLabel+Manager.m */; };
 		8CC1A7B2217C26AF575414CE /* libPods-Meizi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 984A8C8F98D66E63CB10F4CE /* libPods-Meizi.a */; };
 		E32FE7C71CF5DA83004655AB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E32FE7C61CF5DA83004655AB /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
@@ -58,6 +60,7 @@
 		7D75F9881CAF5EFE00D703E3 /* SYChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYChainRequest.m; sourceTree = "<group>"; };
 		7D75F9891CAF5EFE00D703E3 /* SYChainRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYChainRequestManager.h; sourceTree = "<group>"; };
 		7D75F98A1CAF5EFE00D703E3 /* SYChainRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYChainRequestManager.m; sourceTree = "<group>"; };
+		7D8910AE1E174B1900C481F2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7D8A0AA61B58B482001EDD42 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		7D8A0AA71B58B482001EDD42 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		7D93B8491ACFD7CF00453452 /* Meizi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meizi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,12 +68,15 @@
 		7D93B84E1ACFD7CF00453452 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7D93B8501ACFD7CF00453452 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7D93B8511ACFD7CF00453452 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7D93B8571ACFD7CF00453452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D93B8591ACFD7CF00453452 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7D93B87A1ACFDD2900453452 /* Meizi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meizi.h; sourceTree = "<group>"; };
 		7D93B87B1ACFDD2900453452 /* Meizi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meizi.m; sourceTree = "<group>"; };
 		7DBA58FE1CF8297D00014AA7 /* SYNavigationDropdownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNavigationDropdownMenu.h; sourceTree = "<group>"; };
 		7DBA58FF1CF8297D00014AA7 /* SYNavigationDropdownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNavigationDropdownMenu.m; sourceTree = "<group>"; };
+		7DEC22411E14C0640025EDB6 /* CacheSizeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheSizeLabel.h; sourceTree = "<group>"; };
+		7DEC22421E14C0640025EDB6 /* CacheSizeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheSizeLabel.m; sourceTree = "<group>"; };
+		7DEC22671E14F0C20025EDB6 /* CacheSizeLabel+Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CacheSizeLabel+Manager.h"; sourceTree = "<group>"; };
+		7DEC22681E14F0C20025EDB6 /* CacheSizeLabel+Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CacheSizeLabel+Manager.m"; sourceTree = "<group>"; };
 		984A8C8F98D66E63CB10F4CE /* libPods-Meizi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Meizi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32FE7C61CF5DA83004655AB /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		ECE2539F6E6BCBEC10438D3A /* Pods-Meizi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meizi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Meizi/Pods-Meizi.debug.xcconfig"; sourceTree = "<group>"; };
@@ -173,6 +179,7 @@
 		7D8A0AA51B58B46F001EDD42 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				7DEC22401E14C04C0025EDB6 /* View */,
 				7D8A0AA91B58B6FB001EDD42 /* Controller */,
 			);
 			name = Setting;
@@ -210,8 +217,8 @@
 			children = (
 				7D93B8501ACFD7CF00453452 /* AppDelegate.h */,
 				7D93B8511ACFD7CF00453452 /* AppDelegate.m */,
-				7D93B8561ACFD7CF00453452 /* Main.storyboard */,
 				E32FE7C61CF5DA83004655AB /* Launch Screen.storyboard */,
+				7D8910AE1E174B1900C481F2 /* Main.storyboard */,
 				7D93B8591ACFD7CF00453452 /* Images.xcassets */,
 				7D4375DC1B54FAFB001CEBC9 /* Module */,
 				7D93B8721ACFD9CE00453452 /* Vendor */,
@@ -237,6 +244,17 @@
 				7D760CBD1CAE81FF009A295C /* SYNetwork */,
 			);
 			name = Vendor;
+			sourceTree = "<group>";
+		};
+		7DEC22401E14C04C0025EDB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DEC22411E14C0640025EDB6 /* CacheSizeLabel.h */,
+				7DEC22421E14C0640025EDB6 /* CacheSizeLabel.m */,
+				7DEC22671E14F0C20025EDB6 /* CacheSizeLabel+Manager.h */,
+				7DEC22681E14F0C20025EDB6 /* CacheSizeLabel+Manager.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		8D47641333BA4CCE94A6E92C /* Frameworks */ = {
@@ -294,7 +312,7 @@
 		7D93B8411ACFD7CF00453452 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Sunnyyoung;
 				TargetAttributes = {
 					7D93B8481ACFD7CF00453452 = {
@@ -308,7 +326,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = 7D93B8401ACFD7CF00453452;
 			productRefGroup = 7D93B84A1ACFD7CF00453452 /* Products */;
@@ -325,8 +342,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D8910AF1E174B1900C481F2 /* Main.storyboard in Resources */,
 				E32FE7C71CF5DA83004655AB /* Launch Screen.storyboard in Resources */,
-				7D93B8581ACFD7CF00453452 /* Main.storyboard in Resources */,
 				7D93B85A1ACFD7CF00453452 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DEC22691E14F0C20025EDB6 /* CacheSizeLabel+Manager.m in Sources */,
 				7D93B87C1ACFDD2900453452 /* Meizi.m in Sources */,
 				7DBA59001CF8297D00014AA7 /* SYNavigationDropdownMenu.m in Sources */,
 				7D75F98F1CAF5EFE00D703E3 /* SYNetworkManager.m in Sources */,
@@ -394,6 +412,7 @@
 				7D75F98B1CAF5EFE00D703E3 /* SYNetworkUtil.m in Sources */,
 				7D4375E21B54FB72001CEBC9 /* MeiziViewController.m in Sources */,
 				7D93B8521ACFD7CF00453452 /* AppDelegate.m in Sources */,
+				7DEC22431E14C0640025EDB6 /* CacheSizeLabel.m in Sources */,
 				7D75F98D1CAF5EFE00D703E3 /* SYNetworkCacheManager.m in Sources */,
 				7D75F9931CAF5EFE00D703E3 /* SYChainRequestManager.m in Sources */,
 				7D93B84F1ACFD7CF00453452 /* main.m in Sources */,
@@ -407,17 +426,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7D93B8561ACFD7CF00453452 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D93B8571ACFD7CF00453452 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7D93B86A1ACFD7CF00453452 /* Debug */ = {
@@ -433,8 +441,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -443,6 +453,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -455,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -475,8 +486,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -484,13 +497,14 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -502,6 +516,7 @@
 			baseConfigurationReference = ECE2539F6E6BCBEC10438D3A /* Pods-Meizi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Meizi/PrefixHeader.pch";
 				INFOPLIST_FILE = Meizi/Info.plist;
@@ -518,6 +533,7 @@
 			baseConfigurationReference = 5A4C5BD92C73BE61966DCAAD /* Pods-Meizi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Meizi/PrefixHeader.pch";
 				INFOPLIST_FILE = Meizi/Info.plist;
